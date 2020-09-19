@@ -1,0 +1,27 @@
+{
+  "name": "buscapreco",
+  "version": "1.0.0",
+  "description": "Agregador de precos de supermercados de Campos-RJ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vraj2611/buscapreco.git"
+  },
+  "author": "Vilmar Rangel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vraj2611/buscapreco/issues"
+  },
+  "homepage": "https://github.com/vraj2611/buscapreco#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^5.3.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
