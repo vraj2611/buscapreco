@@ -1,16 +1,5 @@
 // await driver.get('https://superbomemcasa.com.br');
     
-// let areas = await driver.executeScript(`
-//     let menus = [];
-//     let itens = document.querySelectorAll('.dropdownMenu2Link');
-//     for(let i of itens){
-//         menus.push({
-//             nome: i.innerText,
-//             url: i.getAttribute('href')
-//         });
-//     }
-//     return menus;
-// `)
 
 // // let menus = await driver.wait(until.elementsLocated(By.className('dropdownMenu2Link')))
 // // for (const menu of menus) {
