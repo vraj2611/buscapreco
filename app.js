@@ -13,7 +13,15 @@ var parseUrl = function (url) {
     return url;
 };
 
-app.get('/', function (req, res) {
+app.get('/', function(req, res){
+    res.send('Teste OK!');
+})
+
+app.get('/zz', function(req, res){
+    res.send('ZZ Teste OK!');
+})
+
+app.get('/produtos', function (req, res) {
     var url = 'https://superbomemcasa.com.br';
 
     if (validUrl.isWebUri(url)) {
